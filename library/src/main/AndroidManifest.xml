@@ -21,8 +21,6 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden">
         </activity>
-        <activity android:name=".xloading.XloadingActivity">
-        </activity>
     </application>
 
 </manifest>
