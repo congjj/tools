@@ -12,12 +12,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            debuggable true
-            jniDebuggable true
-            renderscriptDebuggable true
-            pseudoLocalesEnabled true
             versionNameSuffix '1.0.0.0'
         }
     }
